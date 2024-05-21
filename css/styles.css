@@ -14,12 +14,13 @@ header {
 }
 
 #skip-to-main {
-    position: absolute;
+    position: relative;
     right: 1000px;
+    color: white;
 }
 
 #skip-to-main:focus {
-    position: static;
+    right: 0px;
 }
 
 nav li {
